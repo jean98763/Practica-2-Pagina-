@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+ <head>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link>
+  <title>welcome to {{title }} </title>
+  </head>
+  <body>
+        <h1>Agregar producto</h1>
+                <form action="agregarproducto" method="POST" id="addProduct">
+                    <div class="col-md-12">
+                            <div class="form-group">
+                                    <label for="nombre_producto">Nombre del producto:</label>
+                                    <input type="text" class="form-control" name="nombre_producto" id="nombre_producto" 
+									value placeholder="Indique el nombre del producto">
+                            </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                            <div class="form-group">
+                            <label for="cantidad_existencia">Existencia:</label>
+                            <input type="text" class="form-control" name="cantidad_existencia" 
+							id="cantidad_existencia" placeholder="Indique existencia">
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                            <div class="form-group">
+                                    <label for="precio">Precio:</label>
+                                    <input type="text" class="form-control" name="precio" id="precio" placeholder="Indique su precio">
+                            </div>
+                    </div>
+                   
+                    <div class="col-md-12">
+                        <input class="btn btn-lg btn-success" type="submit" value="Enviar"> 
+                    </div>
+                  </form> 
+        <p>2019</p>
+		</body>
+		</html>
